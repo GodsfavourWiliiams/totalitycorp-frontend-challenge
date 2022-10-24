@@ -1,60 +1,62 @@
 .banner-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-  background-color: #ffffff;
-  padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
 }
 
 .banner-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-container h3 {
-  font-size: 4rem;
-  font-weight: 900;
+    font-size: 4rem;
+    font-weight: 900;
 }
 
 .banner-container p {
-  font-size: 1.5rem;
-  padding: 8px 0;
+    font-size: 1.5rem;
+    padding: 8px 0;
 }
+
 .banner-container span {
-  color: gray;
+    color: gray;
 }
 
 .button-wrappers button {
-  color: #207cfc;
-  padding: 20px;
-  border: none;
-  background: none;
-  font-size: 1.3rem;
-  font-weight: 500;
-  cursor: pointer;
+    color: #207cfc;
+    padding: 20px;
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-  .banner-container img {
-    width: 100%;
-  }
-  .banner-container {
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-  }
-  .banner-body {
-    top: 20px;
-    order: 1;
-  }
+    .banner-container img {
+        width: 100%;
+    }
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-body {
+        top: 20px;
+        order: 1;
+    }
 }
 
 .banner-container img {
-  width: 100%;
-  max-width: 410px;
+    width: 100%;
+    max-width: 410px;
 }

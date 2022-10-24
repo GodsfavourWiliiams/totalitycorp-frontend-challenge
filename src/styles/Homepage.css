@@ -29,13 +29,13 @@
 }
 
 .heading {
-    font-size: 3.25rem;
+    font-size: 2em;
     margin: 0;
     text-align: center;
 }
 
 .sub-heading {
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 8px;
     margin-bottom: 0;
     font-weight: 400;
@@ -67,7 +67,7 @@
 .home-iphone14_img {
     position: relative;
     z-index: 1;
-    top: -120px;
+    top: -90px;
     height: 624px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -80,7 +80,7 @@
 .home-iphone14pro_img {
     position: relative;
     z-index: 1;
-    top: -120px;
+    top: -90px;
     height: 624px;
     background-repeat: no-repeat;
     background-position: center center;
