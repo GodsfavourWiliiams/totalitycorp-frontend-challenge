@@ -1,7 +1,7 @@
 ## Totalitycorp Frontend Challenge (Apple Clone)
 
 ## Table of Contents
-
+- [Summary](#Summary) 
 - [Built With](#built-with)
 - [How to use](#how-to-use)
 - [Contact](#contact)
@@ -9,15 +9,19 @@
 
 <div>
   <h3>
-    <a href="">
+    <a href="https://totalitycorp-frontend-test-godsfavour.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://github.com/GodsfavourWiliiams/totalitycorp-frontend-challenge">
       Solution
     </a>
   </h3>
 </div>
+
+### Summary
+This application is an apple website clone which I built with react Js. so basically I divided the app into smaller components and made use of reusable component which is one of react advantages.
+so I literally I divided the app into 6 different part and 1 subpart in the Grid layout.
 
 ### Built With
 
