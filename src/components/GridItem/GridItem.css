@@ -1,0 +1,56 @@
+.Grid-item {
+    margin: 10px;
+    position: relative;
+}
+
+.Grid-item .Grid-item-links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.Grid-item .Grid-item-links a {
+    color: #2997ff;
+    margin-left: 35px;
+    font-size: 17px;
+}
+
+.Grid-item .Grid-item-links a:hover {
+    text-decoration: underline;
+}
+
+.Grid-item .Grid-item-ipadpro-links {
+    top: 170px;
+}
+
+.Grid-item .Grid-item-ipad-links {
+    top: 160px;
+}
+
+.Grid-item .Grid-item-watchultra-links {
+    top: 170px;
+}
+
+.Grid-item .Grid-item-watch8-links {
+    top: 170px;
+}
+
+.Grid-item .Grid-item-airpodspro-links {
+    top: 145px;
+}
+
+.Grid-item .Grid-item-applecard-links {
+    top: 170px;
+}
+
+.Grid-item .Grid-item-image {
+    width: 100%;
+    max-width: 650px;
+    height: 600px;
+}

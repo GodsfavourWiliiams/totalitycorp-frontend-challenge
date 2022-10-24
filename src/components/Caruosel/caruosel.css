@@ -1,0 +1,153 @@
+
+#SliderSection {
+  height: 580px;
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+}
+#SliderSection input[type=radio] {
+  display: none;
+}
+
+.carousel {
+  width: 980px;
+  height: 551px;
+  transition: transform 800ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+.carousel div {
+  width: 980px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#slide1:checked ~ .carousel {
+  transform: translateX(500%);
+}
+
+#slide2:checked ~ .carousel {
+  transform: translateX(400%);
+}
+
+#slide3:checked ~ .carousel {
+  transform: translateX(300%);
+}
+
+#slide4:checked ~ .carousel {
+  transform: translateX(200%);
+}
+
+#slide5:checked ~ .carousel {
+  transform: translateX(100%);
+}
+
+#slide6:checked ~ .carousel {
+  transform: translateX(0);
+}
+
+#slide7:checked ~ .carousel {
+  transform: translateX(-100%);
+}
+
+#slide8:checked ~ .carousel {
+  transform: translateX(-200%);
+}
+
+#slide9:checked ~ .carousel {
+  transform: translateX(-300%);
+}
+
+#slide10:checked ~ .carousel {
+  transform: translateX(-400%);
+}
+
+#slide11:checked ~ .carousel {
+  transform: translateX(-500%);
+}
+
+#slide12:checked ~ .carousel {
+  transform: translateX(-600%);
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4),
+#slide5:checked ~ #bullets label:nth-child(5),
+#slide6:checked ~ #bullets label:nth-child(6),
+#slide7:checked ~ #bullets label:nth-child(7),
+#slide8:checked ~ #bullets label:nth-child(8),
+#slide9:checked ~ #bullets label:nth-child(9),
+#slide10:checked ~ #bullets label:nth-child(10),
+#slide11:checked ~ #bullets label:nth-child(11),
+#slide12:checked ~ #bullets label:nth-child(12) {
+  background: black;
+}
+
+.carousel-one {
+  background-image: url(../assets/tv1.jpg);
+}
+
+.carousel-two {
+  background-image: url(../assets/tv2.jpg);
+}
+
+.carousel-three {
+  background-image: url(../assets/tv3.jpg);
+}
+
+.carousel-four {
+  background-image: url(../assets/tv4.jpg);
+}
+
+.carousel-five {
+  background-image: url(../assets/tv5.jpg);
+}
+
+.carousel-six {
+  background-image: url(../assets/tv6.jpg);
+}
+
+.carousel-seven {
+  background-image: url(../assets/tv7.jpg);
+}
+
+.carousel-eight {
+  background-image: url(../assets/tv8.jpg);
+}
+
+.carousel-nine {
+  background-image: url(../assets/tv9.jpg);
+}
+
+.carousel-ten {
+  background-image: url(../assets/tv10.jpg);
+}
+
+.carousel-eleven {
+  background-image: url(../assets/tv1.jpg);
+}
+
+.carousel-tweleve {
+  background-image: url(../assets/tv2.jpg);
+}
+
+#bullets {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  gap: 0.3rem;
+  bottom: 0;
+}
+#bullets label {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #808080;
+}

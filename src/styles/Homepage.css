@@ -1,0 +1,88 @@
+.home {
+    font-weight: bold;
+    height: 642px;
+    text-align: center;
+}
+
+.gry {
+    background-color: #fbfbfd;
+}
+
+.black {
+    background-color: black;
+}
+
+.black h1 {
+    color: #fff;
+}
+
+.gry h3 {
+    color: #000000;
+}
+
+.container {
+    z-index: 2;
+    position: relative;
+    top: 4.5rem;
+    color: black;
+    text-decoration: none !important;
+}
+
+.heading {
+    font-size: 3.25rem;
+    margin: 0;
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 28px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 0.004rem;
+    line-height: 1.10722;
+    text-align: center;
+}
+
+.sub-heading {
+    color: white;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link p {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+    margin: 10px
+}
+
+.link p a {
+    color: #2997ff !important;
+}
+
+.home-iphone14_img {
+    position: relative;
+    z-index: 1;
+    top: -120px;
+    height: 624px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../components/assets/iphone144.jpg');
+}
+
+
+/* iPhone 14 Pro */
+
+.home-iphone14pro_img {
+    position: relative;
+    z-index: 1;
+    top: -120px;
+    height: 624px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../components/assets/iphone14proo.jpg');
+}
