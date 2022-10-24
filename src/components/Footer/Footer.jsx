@@ -232,7 +232,7 @@ const Footer = () => {
         More ways to shop: Visit an <a href="/retail/">Apple Store</a>, <span className="nowrap">call 1-800-MY-APPLE, or <a href="/">find a reseller</a></span>.
       </div>
         <div className="footer-legal">
-          <div className="footer-legal-copyright">Copyright © 2018 Apple Inc. All rights reserved.</div>
+          <div className="footer-legal-copyright">Copyright © 2022 Apple Inc. All rights reserved.</div>
           <div className="footer-legal-links">
             <a href="/">Privacy Policy</a>
             <a href="/">Terms of Use</a>
